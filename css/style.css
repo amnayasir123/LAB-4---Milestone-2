@@ -91,12 +91,6 @@ nav a {
 }
 
 
-.cards-gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-}
-
 .card {
     background-color: #ba2f8c;
     padding: 20px;
@@ -160,6 +154,13 @@ nav a {
 .footer-links a {
     color: white;
     text-decoration: none;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 20px;
+    gap: 20px;
 }
 
 
